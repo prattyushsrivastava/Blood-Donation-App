@@ -2,7 +2,7 @@ const requests = [
   {
     id: 1,
     bloodType: "B+",
-    name: "Ronald Dixon",
+    name: "Aman Singh",
     age: 24,
     gender: "Male",
     distance: 28,
@@ -12,7 +12,7 @@ const requests = [
   {
     id: 2,
     bloodType: "O-",
-    name: "Kathy Bates",
+    name: "Gauri Singh",
     age: 19,
     gender: "Female",
     distance: 10,
@@ -22,7 +22,7 @@ const requests = [
   {
     id: 3,
     bloodType: "A+",
-    name: "Edward Sanders",
+    name: "Pratik Sharma",
     age: 6,
     gender: "Male",
     distance: 15.3,
@@ -31,54 +31,87 @@ const requests = [
   },
   {
     id: 4,
-    bloodType: "A+",
-    name: "Edward Sanders",
-    age: 6,
+    bloodType: "AB-",
+    name: "Naman Sharma",
+    age: 16,
     gender: "Male",
-    distance: 15.3,
-    time: 24,
+    distance: 5.3,
+    time: 22,
     priority: "urgent",
   },
   {
-    id: 3,
-    bloodType: "A+",
-    name: "Edward Sanders",
-    age: 6,
+    id: 5,
+    bloodType: "AB+",
+    name: "Amaan Ali Khan",
+    age: 16,
     gender: "Male",
-    distance: 15.3,
-    time: 24,
+    distance: 7,
+    time: 5,
     priority: "urgent",
   },
   {
-    id: 3,
-    bloodType: "A+",
-    name: "Edward Sanders",
-    age: 6,
+    id: 6,
+    bloodType: "A-",
+    name: "Pankaj Singh",
+    age: 36,
     gender: "Male",
-    distance: 15.3,
-    time: 24,
+    distance: 25,
+    time: 14,
     priority: "urgent",
   },
   {
-    id: 3,
-    bloodType: "A+",
-    name: "Edward Sanders",
-    age: 6,
+    id: 7,
+    bloodType: "O+",
+    name: "Abhinav Sharma",
+    age: 21,
     gender: "Male",
-    distance: 15.3,
-    time: 24,
+    distance: 10,
+    time: 8,
     priority: "urgent",
   },
   {
-    id: 3,
-    bloodType: "A+",
-    name: "Edward Sanders",
-    age: 6,
+    id: 8,
+    bloodType: "AB+",
+    name: "Ashok",
+    age: 46,
     gender: "Male",
-    distance: 15.3,
-    time: 24,
+    distance: 35,
+    time: 20,
     priority: "urgent",
   },
+  {
+    id: 9,
+    bloodType: "O+",
+    name: "Saloni Singh",
+    age: 20,
+    gender: "Female",
+    distance: 25.3,
+    time: 11,
+    priority: "urgent",
+  },
+
+  {
+    id: 10,
+    bloodType: "A-",
+    name: "Aastha Rai",
+    age: 36,
+    gender: "Female",
+    distance: 9,
+    time: 3,
+    priority: "urgent",
+  },
+
+  {
+    id: 11,
+    bloodType: "B+",
+    name: "Sonali Gupta",
+    age: 20,
+    gender: "Female",
+    distance: 3,
+    time: 3,
+    priority: "urgent",
+  },
+
 
 ];
 
@@ -102,8 +135,8 @@ const chart = [
   6
 ];
 
-// const user = {
-//   avatar: require('./assets/avatar.png')
-// };
+const user = {
 
-export { requests, chart }
+};
+
+export { requests, chart ,user}
